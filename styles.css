@@ -1,0 +1,17 @@
+.profile-img {
+    display: flex; /* استخدام Flexbox */
+    justify-content: center; /* مركز الصورة أفقياً */
+    align-items: center; /* مركز الصورة عمودياً */
+    width: 150px; /* عرض العنصر */
+    height: 150px; /* ارتفاع العنصر */
+    border-radius: 50%; /* شكل دائري */
+    overflow: hidden; /* قص المحتوى الزائد */
+    margin: 0 auto; /* توسيط العنصر في الصفحة */
+    border: 5px solid #fff; /* إضافة حدود بيضاء */
+}
+
+.profile-img img {
+    width: 83%; /* اجعل الصورة تأخذ عرض العنصر بالكامل */
+    height: auto; /* حافظ على نسبة العرض إلى الارتفاع */
+    filter: brightness(0.8); /* تقليل السطوع */
+}
